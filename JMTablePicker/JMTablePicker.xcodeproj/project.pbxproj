@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5A34801BFEA4A3002B7C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A347F1BFEA4A3002B7C30 /* main.m */; };
+		BF5A34831BFEA4A3002B7C30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34821BFEA4A3002B7C30 /* AppDelegate.m */; };
+		BF5A34861BFEA4A3002B7C30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34851BFEA4A3002B7C30 /* ViewController.m */; };
+		BF5A34891BFEA4A3002B7C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5A34871BFEA4A3002B7C30 /* Main.storyboard */; };
+		BF5A348B1BFEA4A3002B7C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5A348A1BFEA4A3002B7C30 /* Assets.xcassets */; };
+		BF5A348E1BFEA4A3002B7C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5A348C1BFEA4A3002B7C30 /* LaunchScreen.storyboard */; };
+		BF5A34991BFEA4A3002B7C30 /* JMTablePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34981BFEA4A3002B7C30 /* JMTablePickerTests.m */; };
+		BF5A34A41BFEA4A3002B7C30 /* JMTablePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34A31BFEA4A3002B7C30 /* JMTablePickerUITests.m */; };
+		BF5A34B41BFEA4CE002B7C30 /* JMTablePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34B21BFEA4CE002B7C30 /* JMTablePickerViewController.m */; };
+		BF5A34B51BFEA4CE002B7C30 /* JMTablePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5A34B31BFEA4CE002B7C30 /* JMTablePickerViewController.xib */; };
+		BF5A34B81BFEC878002B7C30 /* JMPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34B71BFEC878002B7C30 /* JMPickerModel.m */; };
+		BF5A34BC1BFEC8F5002B7C30 /* JMPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A34BA1BFEC8F5002B7C30 /* JMPickerTableViewCell.m */; };
+		BF5A34BD1BFEC8F5002B7C30 /* JMPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5A34BB1BFEC8F5002B7C30 /* JMPickerTableViewCell.xib */; };
+		BF5A34BF1BFEF3AA002B7C30 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5A34BE1BFEF3AA002B7C30 /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5A34951BFEA4A3002B7C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5A34731BFEA4A3002B7C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5A347A1BFEA4A3002B7C30;
+			remoteInfo = JMTablePicker;
+		};
+		BF5A34A01BFEA4A3002B7C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5A34731BFEA4A3002B7C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5A347A1BFEA4A3002B7C30;
+			remoteInfo = JMTablePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5A347B1BFEA4A3002B7C30 /* JMTablePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMTablePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5A347F1BFEA4A3002B7C30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5A34811BFEA4A3002B7C30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF5A34821BFEA4A3002B7C30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF5A34841BFEA4A3002B7C30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF5A34851BFEA4A3002B7C30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF5A34881BFEA4A3002B7C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5A348A1BFEA4A3002B7C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5A348D1BFEA4A3002B7C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF5A348F1BFEA4A3002B7C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5A34941BFEA4A3002B7C30 /* JMTablePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMTablePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5A34981BFEA4A3002B7C30 /* JMTablePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTablePickerTests.m; sourceTree = "<group>"; };
+		BF5A349A1BFEA4A3002B7C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5A349F1BFEA4A3002B7C30 /* JMTablePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMTablePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5A34A31BFEA4A3002B7C30 /* JMTablePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTablePickerUITests.m; sourceTree = "<group>"; };
+		BF5A34A51BFEA4A3002B7C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5A34B11BFEA4CE002B7C30 /* JMTablePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMTablePickerViewController.h; path = JMTablePicker/JMTablePickerViewController.h; sourceTree = "<group>"; };
+		BF5A34B21BFEA4CE002B7C30 /* JMTablePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMTablePickerViewController.m; path = JMTablePicker/JMTablePickerViewController.m; sourceTree = "<group>"; };
+		BF5A34B31BFEA4CE002B7C30 /* JMTablePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JMTablePickerViewController.xib; path = JMTablePicker/JMTablePickerViewController.xib; sourceTree = "<group>"; };
+		BF5A34B61BFEC878002B7C30 /* JMPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMPickerModel.h; path = JMTablePicker/JMPickerModel.h; sourceTree = "<group>"; };
+		BF5A34B71BFEC878002B7C30 /* JMPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMPickerModel.m; path = JMTablePicker/JMPickerModel.m; sourceTree = "<group>"; };
+		BF5A34B91BFEC8F5002B7C30 /* JMPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMPickerTableViewCell.h; path = JMTablePicker/JMPickerTableViewCell.h; sourceTree = "<group>"; };
+		BF5A34BA1BFEC8F5002B7C30 /* JMPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMPickerTableViewCell.m; path = JMTablePicker/JMPickerTableViewCell.m; sourceTree = "<group>"; };
+		BF5A34BB1BFEC8F5002B7C30 /* JMPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JMPickerTableViewCell.xib; path = JMTablePicker/JMPickerTableViewCell.xib; sourceTree = "<group>"; };
+		BF5A34BE1BFEF3AA002B7C30 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5A34781BFEA4A3002B7C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A34911BFEA4A3002B7C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A349C1BFEA4A3002B7C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5A34721BFEA4A3002B7C30 = {
+			isa = PBXGroup;
+			children = (
+				BF5A347D1BFEA4A3002B7C30 /* JMTablePicker */,
+				BF5A34971BFEA4A3002B7C30 /* JMTablePickerTests */,
+				BF5A34A21BFEA4A3002B7C30 /* JMTablePickerUITests */,
+				BF5A347C1BFEA4A3002B7C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5A347C1BFEA4A3002B7C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5A347B1BFEA4A3002B7C30 /* JMTablePicker.app */,
+				BF5A34941BFEA4A3002B7C30 /* JMTablePickerTests.xctest */,
+				BF5A349F1BFEA4A3002B7C30 /* JMTablePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5A347D1BFEA4A3002B7C30 /* JMTablePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BF5A34811BFEA4A3002B7C30 /* AppDelegate.h */,
+				BF5A34821BFEA4A3002B7C30 /* AppDelegate.m */,
+				BF5A34841BFEA4A3002B7C30 /* ViewController.h */,
+				BF5A34851BFEA4A3002B7C30 /* ViewController.m */,
+				BF5A34C01BFF0A7D002B7C30 /* JMPicker */,
+				BF5A34B61BFEC878002B7C30 /* JMPickerModel.h */,
+				BF5A34B71BFEC878002B7C30 /* JMPickerModel.m */,
+				BF5A34B91BFEC8F5002B7C30 /* JMPickerTableViewCell.h */,
+				BF5A34BA1BFEC8F5002B7C30 /* JMPickerTableViewCell.m */,
+				BF5A34BB1BFEC8F5002B7C30 /* JMPickerTableViewCell.xib */,
+				BF5A34871BFEA4A3002B7C30 /* Main.storyboard */,
+				BF5A34BE1BFEF3AA002B7C30 /* test.png */,
+				BF5A348A1BFEA4A3002B7C30 /* Assets.xcassets */,
+				BF5A348C1BFEA4A3002B7C30 /* LaunchScreen.storyboard */,
+				BF5A348F1BFEA4A3002B7C30 /* Info.plist */,
+				BF5A347E1BFEA4A3002B7C30 /* Supporting Files */,
+			);
+			path = JMTablePicker;
+			sourceTree = "<group>";
+		};
+		BF5A347E1BFEA4A3002B7C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5A347F1BFEA4A3002B7C30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF5A34971BFEA4A3002B7C30 /* JMTablePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5A34981BFEA4A3002B7C30 /* JMTablePickerTests.m */,
+				BF5A349A1BFEA4A3002B7C30 /* Info.plist */,
+			);
+			path = JMTablePickerTests;
+			sourceTree = "<group>";
+		};
+		BF5A34A21BFEA4A3002B7C30 /* JMTablePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5A34A31BFEA4A3002B7C30 /* JMTablePickerUITests.m */,
+				BF5A34A51BFEA4A3002B7C30 /* Info.plist */,
+			);
+			path = JMTablePickerUITests;
+			sourceTree = "<group>";
+		};
+		BF5A34C01BFF0A7D002B7C30 /* JMPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BF5A34B11BFEA4CE002B7C30 /* JMTablePickerViewController.h */,
+				BF5A34B21BFEA4CE002B7C30 /* JMTablePickerViewController.m */,
+				BF5A34B31BFEA4CE002B7C30 /* JMTablePickerViewController.xib */,
+			);
+			name = JMPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5A347A1BFEA4A3002B7C30 /* JMTablePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5A34A81BFEA4A3002B7C30 /* Build configuration list for PBXNativeTarget "JMTablePicker" */;
+			buildPhases = (
+				BF5A34771BFEA4A3002B7C30 /* Sources */,
+				BF5A34781BFEA4A3002B7C30 /* Frameworks */,
+				BF5A34791BFEA4A3002B7C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMTablePicker;
+			productName = JMTablePicker;
+			productReference = BF5A347B1BFEA4A3002B7C30 /* JMTablePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5A34931BFEA4A3002B7C30 /* JMTablePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5A34AB1BFEA4A3002B7C30 /* Build configuration list for PBXNativeTarget "JMTablePickerTests" */;
+			buildPhases = (
+				BF5A34901BFEA4A3002B7C30 /* Sources */,
+				BF5A34911BFEA4A3002B7C30 /* Frameworks */,
+				BF5A34921BFEA4A3002B7C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5A34961BFEA4A3002B7C30 /* PBXTargetDependency */,
+			);
+			name = JMTablePickerTests;
+			productName = JMTablePickerTests;
+			productReference = BF5A34941BFEA4A3002B7C30 /* JMTablePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF5A349E1BFEA4A3002B7C30 /* JMTablePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5A34AE1BFEA4A3002B7C30 /* Build configuration list for PBXNativeTarget "JMTablePickerUITests" */;
+			buildPhases = (
+				BF5A349B1BFEA4A3002B7C30 /* Sources */,
+				BF5A349C1BFEA4A3002B7C30 /* Frameworks */,
+				BF5A349D1BFEA4A3002B7C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5A34A11BFEA4A3002B7C30 /* PBXTargetDependency */,
+			);
+			name = JMTablePickerUITests;
+			productName = JMTablePickerUITests;
+			productReference = BF5A349F1BFEA4A3002B7C30 /* JMTablePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5A34731BFEA4A3002B7C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "梁继明";
+				TargetAttributes = {
+					BF5A347A1BFEA4A3002B7C30 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BF5A34931BFEA4A3002B7C30 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BF5A347A1BFEA4A3002B7C30;
+					};
+					BF5A349E1BFEA4A3002B7C30 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BF5A347A1BFEA4A3002B7C30;
+					};
+				};
+			};
+			buildConfigurationList = BF5A34761BFEA4A3002B7C30 /* Build configuration list for PBXProject "JMTablePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5A34721BFEA4A3002B7C30;
+			productRefGroup = BF5A347C1BFEA4A3002B7C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5A347A1BFEA4A3002B7C30 /* JMTablePicker */,
+				BF5A34931BFEA4A3002B7C30 /* JMTablePickerTests */,
+				BF5A349E1BFEA4A3002B7C30 /* JMTablePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5A34791BFEA4A3002B7C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5A34B51BFEA4CE002B7C30 /* JMTablePickerViewController.xib in Resources */,
+				BF5A348E1BFEA4A3002B7C30 /* LaunchScreen.storyboard in Resources */,
+				BF5A34BD1BFEC8F5002B7C30 /* JMPickerTableViewCell.xib in Resources */,
+				BF5A348B1BFEA4A3002B7C30 /* Assets.xcassets in Resources */,
+				BF5A34BF1BFEF3AA002B7C30 /* test.png in Resources */,
+				BF5A34891BFEA4A3002B7C30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A34921BFEA4A3002B7C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A349D1BFEA4A3002B7C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5A34771BFEA4A3002B7C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5A34B41BFEA4CE002B7C30 /* JMTablePickerViewController.m in Sources */,
+				BF5A34861BFEA4A3002B7C30 /* ViewController.m in Sources */,
+				BF5A34BC1BFEC8F5002B7C30 /* JMPickerTableViewCell.m in Sources */,
+				BF5A34831BFEA4A3002B7C30 /* AppDelegate.m in Sources */,
+				BF5A34801BFEA4A3002B7C30 /* main.m in Sources */,
+				BF5A34B81BFEC878002B7C30 /* JMPickerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A34901BFEA4A3002B7C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5A34991BFEA4A3002B7C30 /* JMTablePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A349B1BFEA4A3002B7C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5A34A41BFEA4A3002B7C30 /* JMTablePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5A34961BFEA4A3002B7C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5A347A1BFEA4A3002B7C30 /* JMTablePicker */;
+			targetProxy = BF5A34951BFEA4A3002B7C30 /* PBXContainerItemProxy */;
+		};
+		BF5A34A11BFEA4A3002B7C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5A347A1BFEA4A3002B7C30 /* JMTablePicker */;
+			targetProxy = BF5A34A01BFEA4A3002B7C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5A34871BFEA4A3002B7C30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5A34881BFEA4A3002B7C30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5A348C1BFEA4A3002B7C30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5A348D1BFEA4A3002B7C30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5A34A61BFEA4A3002B7C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF5A34A71BFEA4A3002B7C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5A34A91BFEA4A3002B7C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMTablePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jimmy.JMTablePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5A34AA1BFEA4A3002B7C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMTablePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jimmy.JMTablePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF5A34AC1BFEA4A3002B7C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JMTablePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jimmy.JMTablePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMTablePicker.app/JMTablePicker";
+			};
+			name = Debug;
+		};
+		BF5A34AD1BFEA4A3002B7C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JMTablePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jimmy.JMTablePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMTablePicker.app/JMTablePicker";
+			};
+			name = Release;
+		};
+		BF5A34AF1BFEA4A3002B7C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JMTablePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jimmy.JMTablePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMTablePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF5A34B01BFEA4A3002B7C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JMTablePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jimmy.JMTablePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMTablePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5A34761BFEA4A3002B7C30 /* Build configuration list for PBXProject "JMTablePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5A34A61BFEA4A3002B7C30 /* Debug */,
+				BF5A34A71BFEA4A3002B7C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5A34A81BFEA4A3002B7C30 /* Build configuration list for PBXNativeTarget "JMTablePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5A34A91BFEA4A3002B7C30 /* Debug */,
+				BF5A34AA1BFEA4A3002B7C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5A34AB1BFEA4A3002B7C30 /* Build configuration list for PBXNativeTarget "JMTablePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5A34AC1BFEA4A3002B7C30 /* Debug */,
+				BF5A34AD1BFEA4A3002B7C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5A34AE1BFEA4A3002B7C30 /* Build configuration list for PBXNativeTarget "JMTablePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5A34AF1BFEA4A3002B7C30 /* Debug */,
+				BF5A34B01BFEA4A3002B7C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF5A34731BFEA4A3002B7C30 /* Project object */;
+}
